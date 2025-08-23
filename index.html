@@ -2,80 +2,145 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Síntese Pessoal e Profissional - Silvanio Gois</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f9f9f9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 40px;
+            background-color: #f0f2f5;
             color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background-color: #fff;
+            padding: 40px 60px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
         }
         h1 {
             color: #27628d;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .subtitle {
+            text-align: center;
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 40px;
         }
         h2 {
-            color: #444;
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 5px;
-            margin-top: 30px;
+            color: #1a4f72;
+            font-size: 1.6em;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 8px;
+            font-weight: 600;
         }
         p {
             margin-bottom: 15px;
-            line-height: 1.6;
+            text-align: justify;
         }
         ul {
-            margin-bottom: 15px;
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            position: relative;
+            padding: 8px 0 8px 25px;
+            margin-bottom: 5px;
+            transition: background-color 0.3s ease;
+            border-radius: 4px;
+        }
+        ul li:hover {
+            background-color: #e8f4fb;
+        }
+        ul li::before {
+            content: '•';
+            position: absolute;
+            left: 5px;
+            color: #27628d;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .section-break {
+            border: none;
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 40px 0;
         }
     </style>
 </head>
 <body>
-    <h1>Síntese Pessoal e Profissional — Silvanio Gois</h1>
-
-    <h2>👤 Perfil Pessoal</h2>
-    <p>Silvanio Gois é um profissional de raciocínio analítico refinado, com alto grau de introspecção, senso crítico e abertura à complexidade da vida. Seu pensamento é estruturado com base em princípios de causalidade, propósito e coerência. Demonstra profunda capacidade de reflexão, aliando sensibilidade emocional à lógica racional, sem se apegar a dogmas ou modelos fixos.</p>
-    <p>Seu olhar sobre o mundo é filosófico e sistêmico: questiona origens, padrões e consequências, com interesse genuíno por entender o funcionamento das relações humanas, dos sistemas sociais e dos fenômenos naturais. Valoriza o conhecimento prático, a experiência direta e a busca de sentido como bases para suas escolhas pessoais e profissionais.</p>
-
-    <h2>💼 Perfil Profissional</h2>
-    <p>Profissional com sólida experiência nos setores público e privado, especialmente nas áreas de administração, gestão operacional, suprimentos, planejamento e controle. Atua com excelência em coordenação de equipes, organização de processos, análise de dados, negociação com fornecedores e elaboração de propostas estratégicas.</p>
-    <p>É técnico em Administração e Edificações, e atualmente cursa graduação em Processos Gerenciais, com previsão de conclusão em 2026. Tem forte inclinação para análises integradas entre financeiro, operacional e humano — com domínio de ferramentas como Excel avançado, Power BI, Python, R, Looker Studio e Tableau.</p>
-    <p>Também desenvolve portfólios analíticos e relatórios personalizados, que unem dados quantitativos e storytelling gerencial, com foco em áreas como:</p>
-    <ul>
-        <li>Gestão estratégica (Liderança Estratégica, Planejamento Estratégico Empresarial, Mapa de Mobilidade Social e Procrastinação no Ambiente Corporativo)</li>
-        <li>Gestão financeira (Fluxo de Caixa, Balanço, DRE, EBITDA, Orçamentação e Forecast)</li>
-        <li>Planejamento de obras (Curva S, Gantt, Mão de obra e Histograma, Material e Curva ABC, produtividade e custo)</li>
-        <li>Recursos Humanos (turnover, absenteísmo, performance, retenção, Tendência: Diploma vs Habilidade, Contratações e Enviesamento em Corporações)</li>
-        <li>Projetos e Produção (Produção diária, Previsão de Produção, Disponibilidade, Performance e Qualidade)</li>
-        <li>Comercial (Campanha de marketing, Visão do cliente, Vendas, Custos, Margem de lucro)</li>
-        <li>Cadeia de Suprientos e Logística (Custo, Qualidade, Pontualidade, Eficiência e Satisfação do cliente)</li>
-        <li>Loterias (análise estatística de padrões, modelagem matemática)</li>
-    </ul>
-
-    <h2>🎯 Pontos Fortes</h2>
-    <ul>
-        <li>Visão sistêmica e estratégica</li>
-        <li>Comunicação clara e articulada</li>
-        <li>Capacidade de análise crítica e interpretação de dados</li>
-        <li>Facilidade em integrar áreas técnicas e humanas</li>
-        <li>Iniciativa, criatividade e adaptabilidade</li>
-    </ul>
-
-    <h2>🧭 Valores Pessoais e Profissionais</h2>
-    <ul>
-        <li>Coerência entre discurso e prática</li>
-        <li>Ética, responsabilidade e comprometimento</li>
-        <li>Busca por sentido e propósito no que faz</li>
-        <li>Valorização da autonomia, do aprendizado contínuo e da contribuição real</li>
-    </ul>
-
-    <h2>📌 Pontos de Desenvolvimento</h2>
-    <ul>
-        <li>Evitar análise excessiva em situações que exigem ação rápida</li>
-        <li>Aprimorar a tolerância à ambiguidade em ambientes menos estruturados</li>
-        <li>Buscar maior equilíbrio entre profundidade reflexiva e leveza no cotidiano</li>
-        <li>Ampliar presença em redes ou contextos mais colaborativos (networking estratégico)</li>
-    </ul>
-
-    <h2>🌐 Resumo Final</h2>
-    <p>Silvanio é um profissional completo, com vivência sólida, perfil reflexivo e competência prática, que transita com naturalidade entre o pensamento técnico, estratégico e humano. Sua trajetória mostra um contínuo aperfeiçoamento, sustentado por experiências reais e pela busca por significado — tanto na vida pessoal quanto na vida profissional.</p>
+    <div class="container">
+        <h1>Síntese Pessoal e Profissional</h1>
+        <p class="subtitle">Silvanio Gois</p>
+        
+        <h2>Perfil Pessoal</h2>
+        <p>Silvanio Gois é um profissional de raciocínio analítico refinado, com alto grau de introspecção, senso crítico e abertura à complexidade da vida. Seu pensamento é estruturado com base em princípios de causalidade, propósito e coerência. Demonstra profunda capacidade de reflexão, aliando sensibilidade emocional à lógica racional, sem se apegar a dogmas ou modelos fixos.</p>
+        <p>Seu olhar sobre o mundo é filosófico e sistêmico: questiona origens, padrões e consequências, com interesse genuíno por entender o funcionamento das relações humanas, dos sistemas sociais e dos fenômenos naturais. Valoriza o conhecimento prático, a experiência direta e a busca de sentido como bases para suas escolhas pessoais e profissionais.</p>
+        
+        <div class="section-break"></div>
+        
+        <h2>Perfil Profissional</h2>
+        <p>Profissional com sólida experiência nos setores público e privado, especialmente nas áreas de administração, gestão operacional, suprimentos, planejamento e controle. Atua com excelência em coordenação de equipes, organização de processos, análise de dados, negociação com fornecedores e elaboração de propostas estratégicas.</p>
+        <p>É técnico em Administração e Edificações, e atualmente cursa graduação em Processos Gerenciais, com previsão de conclusão em 2026. Tem forte inclinação para análises integradas entre financeiro, operacional e humano — com domínio de ferramentas como **Excel avançado**, **Power BI**, **Python**, **R**, **Looker Studio** e **Tableau**.</p>
+        <p>Também desenvolve portfólios analíticos e relatórios personalizados, que unem dados quantitativos e storytelling gerencial, com foco em áreas como:</p>
+        <ul>
+            <li>Gestão estratégica (Liderança Estratégica, Planejamento Estratégico Empresarial, Mapa de Mobilidade Social e Procrastinação no Ambiente Corporativo)</li>
+            <li>Gestão financeira (Fluxo de Caixa, Balanço, DRE, EBITDA, Orçamentação e Forecast)</li>
+            <li>Planejamento de obras (Curva S, Gantt, Mão de obra e Histograma, Material e Curva ABC, produtividade e custo)</li>
+            <li>Recursos Humanos (turnover, absenteísmo, performance, retenção, Tendência: Diploma vs Habilidade, Contratações e Enviesamento em Corporações)</li>
+            <li>Projetos e Produção (Produção diária, Previsão de Produção, Disponibilidade, Performance e Qualidade)</li>
+            <li>Comercial (Campanha de marketing, Visão do cliente, Vendas, Custos, Margem de lucro)</li>
+            <li>Cadeia de Suprientos e Logística (Custo, Qualidade, Pontualidade, Eficiência e Satisfação do cliente)</li>
+            <li>Loterias (análise estatística de padrões, modelagem matemática)</li>
+        </ul>
+        
+        <div class="section-break"></div>
+        
+        <h2>Pontos Fortes</h2>
+        <ul>
+            <li>Visão sistêmica e estratégica</li>
+            <li>Comunicação clara e articulada</li>
+            <li>Capacidade de análise crítica e interpretação de dados</li>
+            <li>Facilidade em integrar áreas técnicas e humanas</li>
+            <li>Iniciativa, criatividade e adaptabilidade</li>
+        </ul>
+        
+        <div class="section-break"></div>
+        
+        <h2>Valores Pessoais e Profissionais</h2>
+        <ul>
+            <li>Coerência entre discurso e prática</li>
+            <li>Ética, responsabilidade e comprometimento</li>
+            <li>Busca por sentido e propósito no que faz</li>
+            <li>Valorização da autonomia, do aprendizado contínuo e da contribuição real</li>
+        </ul>
+        
+        <div class="section-break"></div>
+        
+        <h2>Pontos de Desenvolvimento</h2>
+        <ul>
+            <li>Evitar análise excessiva em situações que exigem ação rápida</li>
+            <li>Aprimorar a tolerância à ambiguidade em ambientes menos estruturados</li>
+            <li>Buscar maior equilíbrio entre profundidade reflexiva e leveza no cotidiano</li>
+            <li>Ampliar presença em redes ou contextos mais colaborativos (networking estratégico)</li>
+        </ul>
+        
+        <div class="section-break"></div>
+        
+        <h2>Resumo Final</h2>
+        <p>Silvanio é um profissional completo, com vivência sólida, perfil reflexivo e competência prática, que transita com naturalidade entre o pensamento técnico, estratégico e humano. Sua trajetória mostra um contínuo aperfeiçoamento, sustentado por experiências reais e pela busca por significado — tanto na vida pessoal quanto na vida profissional.</p>
+    </div>
 </body>
 </html>
